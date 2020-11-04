@@ -1,0 +1,74 @@
+/* my website css start */
+* {
+    margin: 0;
+    color: #fff;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #161618;
+}
+
+#content {
+    width: 50%;
+    margin: 7% auto;
+    height: 50%;
+    background-color: #011618;
+}
+
+#container {
+    
+}
+
+.accordion-container {
+    padding: 25px 30px;    
+    align-items: center;
+}
+
+.function {
+    color: gray;
+}
+
+.function-name {
+    color: lightblue;
+}
+
+.klammern {
+    color: yellow;
+}
+
+.sub-accordion-container, .text-container {
+    display: none;
+}
+
+.sub-accordion-container.active {
+    display: block;
+    padding-left: 25px;
+}
+
+.text-container.active {
+    display: block;
+}
+
+#topTrigger {
+    display: inline;
+}
+
+.accordion-trigger {
+    color: orange;
+    cursor: pointer;
+}
+
+.sub-accordion-trigger-container {
+    display: inline;
+}
+
+.accordion-trigger-container {
+    display: inline;
+}
