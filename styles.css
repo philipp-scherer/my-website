@@ -49,18 +49,24 @@ html, body {
 
 .sub-accordion-container.active {
     display: block;
-    padding-left: 25px;
+    padding: 25px 0 0 30px;
 }
+
+.sub-accordion-container.active:last-child{
+    padding: 25px 0 25px 30px;
+} 
 
 .text-container.active {
     display: block;
+    padding: 25px 0 0 0;
+    margin-left: 30px;
 }
 
 #topTrigger {
     display: inline;
 }
 
-.accordion-trigger {
+.accordion-trigger, .sub-accordion-trigger {
     color: orange;
     cursor: pointer;
 }
